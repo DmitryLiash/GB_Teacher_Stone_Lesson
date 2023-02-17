@@ -31,14 +31,14 @@ print(result) # при кратных значения ошибка + 1 полу
 # **Output:**
 # 32  парты нужны
 
-ok
+#ok
 first = 20
 second = 21
 thrid = 22
 result = (20 + 21 + 22) // 2 + (20 + 21 + 22) % 2
 print(result)
 
-
+#ok
 first = int(input('введите кол-во ученеков из 1 класса. п.у.з. 20 :'))
 second = int(input('введите кол-во ученеков из 1 класса. п.у.з. 21 :'))
 thrid = int(input('введите кол-во ученеков из 1 класса. п.у.з. 22 :'))
@@ -54,10 +54,9 @@ print(int(result))
 #  вагонов в электричке. Напишите программу, которая будет это делать или
 #  сообщать, что без дополнительной информации это сделать невозможно.
 
+#ok
 numberCountWagon = int(input('введите порядковый номер вагона от тепловоза:')) 
 numberOfWagon = int(input('введите номер вагона :'))
-
-
 if numberOfWagon != numberCountWagon:
     result = numberCountWagon + numberOfWagon - 1
     print('В поезде {} вагонов'.format(result))
@@ -75,6 +74,7 @@ else:
 # **Output:**
 # YES
 
+#ok
 value = int(input('Enter year :'))
 if value % 4 == 0 and  value % 100 != 0 or value % 400 == 0:
     print('yes')
