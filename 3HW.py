@@ -18,18 +18,18 @@ print("заданое число присутсвует в списке {} ра�
 
 import time
 sum = 0
-DctPoints = {'AEIOULNSTRАВЕИНОРСТ': 1,
+dctPoints = {'AEIOULNSTRАВЕИНОРСТ': 1,
       	'DGДКЛМПУ': 2,
       	'BCMPБГЁЬЯ': 3,
       	'FHVWYЙЫ': 4,
       	'KЖЗХЦЧ': 5,
       	'JZШЭЮ': 8,
       	'QZФЩЪ': 10}
-EnterFromUser = input("Введите слово: ").upper()
-for key in DctPoints:
-    for x in EnterFromUser:
+enterFromUser = input("Введите слово: ").upper()
+for key in dctPoints:
+    for x in enterFromUser:
         if x in key:
-           sum += DctPoints.get(key)
+           sum += dctPoints.get(key)
 print("Пи-пу-пик идет подсчет, ожидайте") 
 time.sleep(2)
-print("за слово {} вы получаете {} очков.".format(EnterFromUser, sum))
+print("за слово {} вы получаете {} очков.".format(enterFromUser, sum))
