@@ -173,7 +173,7 @@ for item in list2:
         sumItem = sum([(int(i)) for i in str(sumItem)]) 
     list3.append(sumItem)
 print(list3)
-print(set(list3))
+print(set(list3)) 
 
     
 

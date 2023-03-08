@@ -4,12 +4,12 @@
 # A = 3; B = 5 -> 243 (3⁵)
 #     A = 2; B = 3 -> 8 
 
-# def degree_founder(value1, value2):
-#     if value2 == 1:
-#         return value1
-#     else:
-#         return degree_founder(value1, value2 - 1) * value1
-# print(degree_founder(int(input('1 : ')), int(input('2 : '))))
+def degree_founder(value1, value2):
+    if value2 == 1:
+        return value1
+    else:
+        return degree_founder(value1, value2 - 1) * value1
+print(degree_founder(int(input('1 : ')), int(input('2 : '))))
 
 # Напишите рекурсивную функцию sum(a, b), возвращающую сумму двух 
 # целых неотрицательных чисел. Из всех арифметических операций 
