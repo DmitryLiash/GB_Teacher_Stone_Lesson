@@ -1,1 +1,1 @@
-![питончик ван лав](pitonchik2.jpeg "deal with it")
+![питончик ван лав](lol2.jpg "deal with it")

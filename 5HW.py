@@ -18,19 +18,6 @@
 # 2 2
 #     4 
 
-# def strange_summ(value1, value2):
-#     if value2 == 0:
-#         return value1
-#     elif value1 == 0:
-#         return value2
-#     else:
-#         if value2 > 0:
-#             return strange_summ(value1 + 1, value2 - 1)
-#         else:
-#             return strange_summ(value1 - 1, value2 + 1)
-            
-# print(strange_summ(int(input('1 : ')), int(input('2 : '))))
-
 def strange_summ(value1, value2):
     if value2 == 0:
         return value1
